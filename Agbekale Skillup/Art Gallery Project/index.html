@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300&family=Signika:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-[#f4f4f4] flex flex-col font-body leading-[1.8rem]">
+        <!------------------------- HEADER SECTION ---------------------->
+        <header class="flex flex-col relative">
+            <div
+                class="bg-[#e9eaec] w-[100%] h-[80vw] flex justify-center align-middle md:justify-start sm:h-[70vh] sm:min-h-[800px] md:h-[95vh]  relative">
+                <div class="w-[30%] hidden h-full max-h-[1000px] bg-black md:block "></div>
+                <div class="w-[60%] sm:w-[50%] md:w-[40%] sm:h-full max-h-[1000px] pt-[20px]">
+                    <div
+                        class="bg-mobile-hero sm:bg-desktop-hero md:bg-laptop-hero bg-cover sm:bg-center w-full sm:w-full h-full">
+                    </div>
+                </div>
+                <div class="hidden w-[30%] h-full md:max-h-[1000px] sm:block"></div>
+            </div>
+            <div class="w-[90%] mx-auto my-0 md:relative">
+                <h1
+                    class="sm:absolute sm:top-[18vw] sm:left-[55.5vw] md:top-[-75vh] md:left-[8.2vw]  z-10  font-gothic text-[15vw] sm:text-[8vw] md:text-calc uppercase leading-[14.5vw] sm:leading-[8vw] md:leading-[6.85vw] mt-[25px] mb-[25px] hero_text">
+                    Modern</span> <br>
+                    Art
+                    Gallery</h1>
+                <div
+                    class="sm:absolute sm:top-[40vw] md:top-[-75vh] sm:left-[55.5vw] md:right-[8.7vw] sm:w-[39vw] md:w-[24%] md:min-w-[300px] z-20">
+                    <p class="text-[20px]">The arts in the collection of the Modern Art Gallery all started from a
+                        spark
+                        of
+                        inspiration. Will these pieces inspire you?
+                        Visit us and find out</p>
+                    <div class="flex mt-[35px]">
+                        <button
+                            class="font-dosis text-[16px] text-white tracking-[.15rem] uppercase px-[30px] py-[20px]  bg-black">Our
+                            Location</button> <button
+                            class="font-dosis text-[16px] bg-[#d5966b] text-white px-[20px] py-[20px]"><i
+                                class="fa-sharp fa-solid fa-v fa-rotate-270 fa-lg"></i></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="flex flex-col py-[100px] w-[90%] md:w-[80%] mx-auto my-0 gap-[60px]">
+            <div class="flex flex-col sm:flex-row-reverse gap-[50px]">
+                <div>
+                    <picture>
+                        <source media="(min-width: 825px)" srcset="./dist/images/laptop1.png" />
+                        <source media="(min-width: 640px)" srcset="./dist/images/desktop1.png" />
+                        <img src="./dist/images/mobile 1.png" alt="a gym picture" class="w-full" />
+                    </picture>
+                </div>
+                <div class="flex flex-col gap-[15px] md:gap-[25x] sm:w-[40%] md:w-[50%] md:pr-[100px]">
+                    <h3 class="font-gothic text-[50px] uppercase leading-[49.5px]">Your day <br /> at the
+                        gallery</h3>
+                    <p class="text-[20px] tracking-wider">Wander through our distinct collections and find
+                        new insights
+                        about our
+                        artists. Dive into the
+                        details of their creative process.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-[30px] md:gap-[20px]">
+                <div class="sm:w-[60%] md:[w-50%]">
+                    <picture class="w-full">
+                        <source media="(min-width : 825px)" srcset="./dist/images/laptop2.png" />
+                        <source media="(min-width : 640px)" srcset="./dist/images/desktop2.png" />
+                        <img src="./dist/images/mobile 2.png" alt="a gym picture" class="w-full sm:h-full" />
+                    </picture>
+                </div>
+                <div class="flex flex-col gap-[50px] md:gap-[25px] w-full sm:w-[40%] md:w-[50%]">
+                    <picture>
+                        <source media="(min-width : 825px)" srcset="./dist/images/laptop3.png" />
+                        <source media="(min-width : 640px)" srcset="./dist/images/desktop3.png" />
+                        <img src="./dist/images/mobile 3.png" alt="a gym picture" class="w-full" />
+                    </picture>
+                    <div class="flex flex-col gap-[30px] bg-black text-white px-[30px] py-[40px] ">
+                        <h3 class="font-gothic text-[40px] sm:text-[38px] md:text-[50px] uppercase leading-[50px]">Come
+                            & be inspired
+                        </h3>
+                        <p class="font-dosis text-[20px] tracking-wider">We're excited to welcome you to our gallery and
+                            see how
+                            our
+                            collections influence you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="flex bg-black text-white py-[70px]">
+            <div class="w-[90%] md-[80%] flex flex-col sm:flex-row justify-around gap-[50px] md:gap-0 mx-auto my-0">
+                <h1
+                    class="sm:w-[25%] font-gothic text-[35px] sm:text-[28px] md:text-[30px]  uppercase leading-[35px] md:leading-[30px] tracking-normal ">
+                    Modern <br />art
+                    gallery</h1>
+                <p class="sm:w-[50%] font-dosis text-[16px] leading-[30px]">The Modern Art Gallery is free to all
+                    visitors and open
+                    seven days a week from 8am to 9pm. Find us at 99
+                    King Street, Newport, USA.</p>
+                <div class="flex gap-[20px] sm:justify-center sm:w-[25%] text-[30px] sm:self-center">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/e7941a39f9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
